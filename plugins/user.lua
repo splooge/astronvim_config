@@ -21,4 +21,13 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open Todos in Telescope" },
     },
   },
+  {
+    "folke/noice.nvim",
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "rcarriga/nvim-notify",
+    },
+    event = "User AstroFile",
+    opts = {},
+  },
 }
