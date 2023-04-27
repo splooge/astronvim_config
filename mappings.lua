@@ -26,6 +26,7 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
 
     ["<leader>a"] = { "<cmd>echo 'Hello World!'<cr>", desc = "Say hello world" },
+    ["<leader>ln"] = { "<cmd>NullLsInfo<cr>" },
   },
   t = {
     -- setting a mapping to false will disable it
