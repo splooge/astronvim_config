@@ -12,7 +12,6 @@ return {
         nls.builtins.formatting.beautysh,
         nls.builtins.formatting.jq,
         nls.builtins.formatting.prettier,
-        nls.builtins.diagnostics.jsonlint,
         -- nls.builtins.diagnostics.flake8,
       },
     }
